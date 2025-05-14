@@ -1,0 +1,15 @@
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\bin\Debug\net8.0\AppCrudMinerd.Application.deps.json
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\bin\Debug\net8.0\AppCrudMinerd.Application.dll
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\bin\Debug\net8.0\AppCrudMinerd.Application.pdb
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\bin\Debug\net8.0\AppCrudMinerd.Domain.dll
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\bin\Debug\net8.0\AppCrudMinerd.Domain.pdb
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\AppCrudMinerd.Application.csproj.AssemblyReference.cache
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\AppCrudMinerd.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\AppCrudMinerd.Application.AssemblyInfoInputs.cache
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\AppCrudMinerd.Application.AssemblyInfo.cs
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\AppCrudMinerd.Application.csproj.CoreCompileInputs.cache
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\AppCrudM.B1BC5D01.Up2Date
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\AppCrudMinerd.Application.dll
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\refint\AppCrudMinerd.Application.dll
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\AppCrudMinerd.Application.pdb
+C:\ProyectosManatech\AppCrudMinerdV2\AppCrudMinerd\AppCrudMinerd.Application\obj\Debug\net8.0\ref\AppCrudMinerd.Application.dll

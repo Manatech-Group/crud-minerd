@@ -1,0 +1,240 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{32318815-5BCC-49E8-8527-BCED4F73C50A}|AppCrudMinerd\\AppCrudMinerd.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32318815-5BCC-49E8-8527-BCED4F73C50A}|AppCrudMinerd\\AppCrudMinerd.csproj|solutionrelative:appcrudminerd\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32318815-5BCC-49E8-8527-BCED4F73C50A}|AppCrudMinerd\\AppCrudMinerd.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32318815-5BCC-49E8-8527-BCED4F73C50A}|AppCrudMinerd\\AppCrudMinerd.csproj|solutionrelative:appcrudminerd\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32318815-5BCC-49E8-8527-BCED4F73C50A}|AppCrudMinerd\\AppCrudMinerd.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{32318815-5BCC-49E8-8527-BCED4F73C50A}|AppCrudMinerd\\AppCrudMinerd.csproj|solutionrelative:appcrudminerd\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32318815-5BCC-49E8-8527-BCED4F73C50A}|AppCrudMinerd\\AppCrudMinerd.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd\\controllers\\dataminerdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32318815-5BCC-49E8-8527-BCED4F73C50A}|AppCrudMinerd\\AppCrudMinerd.csproj|solutionrelative:appcrudminerd\\controllers\\dataminerdcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd.application\\services\\dataminerdservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|solutionrelative:appcrudminerd.application\\services\\dataminerdservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd.application\\interfaces\\services\\idataminerdservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|solutionrelative:appcrudminerd.application\\interfaces\\services\\idataminerdservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd.application\\dtos\\createdataminerddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|solutionrelative:appcrudminerd.application\\dtos\\createdataminerddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd.application\\interfaces\\repositories\\idataminerdrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|solutionrelative:appcrudminerd.application\\interfaces\\repositories\\idataminerdrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4500D86E-2A23-4B34-B238-5AA85975D832}|AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd.persistence\\context\\appcrudminerdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4500D86E-2A23-4B34-B238-5AA85975D832}|AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj|solutionrelative:appcrudminerd.persistence\\context\\appcrudminerdcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4500D86E-2A23-4B34-B238-5AA85975D832}|AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd.persistence\\repositories\\dataminerdrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4500D86E-2A23-4B34-B238-5AA85975D832}|AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj|solutionrelative:appcrudminerd.persistence\\repositories\\dataminerdrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4500D86E-2A23-4B34-B238-5AA85975D832}|AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd.persistence\\appcrudminerd.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4500D86E-2A23-4B34-B238-5AA85975D832}|AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj|solutionrelative:appcrudminerd.persistence\\appcrudminerd.persistence.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd.application\\dtos\\dataminerddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5F610FF-350D-409B-9BD2-FCC1C114F7E5}|AppCrudMinerd.Application\\AppCrudMinerd.Application.csproj|solutionrelative:appcrudminerd.application\\dtos\\dataminerddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4500D86E-2A23-4B34-B238-5AA85975D832}|AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj|c:\\proyectosmanatech\\appcrudminerdv2\\appcrudminerd\\appcrudminerd.persistence\\appcrudminerd.persistence.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{4500D86E-2A23-4B34-B238-5AA85975D832}|AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj|solutionrelative:appcrudminerd.persistence\\appcrudminerd.persistence.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "AppCrudMinerd\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd\\Properties\\launchSettings.json",
+              "RelativeToolTip": "AppCrudMinerd\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-14T20:49:46.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd\\appsettings.json",
+              "RelativeDocumentMoniker": "AppCrudMinerd\\appsettings.json",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd\\appsettings.json",
+              "RelativeToolTip": "AppCrudMinerd\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-14T19:51:40.225Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd\\Program.cs",
+              "RelativeDocumentMoniker": "AppCrudMinerd\\Program.cs",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd\\Program.cs",
+              "RelativeToolTip": "AppCrudMinerd\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:49:56.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataMinerdController.cs",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd\\Controllers\\DataMinerdController.cs",
+              "RelativeDocumentMoniker": "AppCrudMinerd\\Controllers\\DataMinerdController.cs",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd\\Controllers\\DataMinerdController.cs",
+              "RelativeToolTip": "AppCrudMinerd\\Controllers\\DataMinerdController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:49:13.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DataMinerdService.cs",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Services\\DataMinerdService.cs",
+              "RelativeDocumentMoniker": "AppCrudMinerd.Application\\Services\\DataMinerdService.cs",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Services\\DataMinerdService.cs",
+              "RelativeToolTip": "AppCrudMinerd.Application\\Services\\DataMinerdService.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAcwJ0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:46:40.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IDataMinerdService.cs",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Interfaces\\Services\\IDataMinerdService.cs",
+              "RelativeDocumentMoniker": "AppCrudMinerd.Application\\Interfaces\\Services\\IDataMinerdService.cs",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Interfaces\\Services\\IDataMinerdService.cs",
+              "RelativeToolTip": "AppCrudMinerd.Application\\Interfaces\\Services\\IDataMinerdService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:45:43.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateDataMinerdDto.cs",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Dtos\\CreateDataMinerdDto.cs",
+              "RelativeDocumentMoniker": "AppCrudMinerd.Application\\Dtos\\CreateDataMinerdDto.cs",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Dtos\\CreateDataMinerdDto.cs",
+              "RelativeToolTip": "AppCrudMinerd.Application\\Dtos\\CreateDataMinerdDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:41:18.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AppCrudMinerd.Persistence",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj",
+              "RelativeDocumentMoniker": "AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj",
+              "RelativeToolTip": "AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-14T19:36:03.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IDataMinerdRepository.cs",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Interfaces\\Repositories\\IDataMinerdRepository.cs",
+              "RelativeDocumentMoniker": "AppCrudMinerd.Application\\Interfaces\\Repositories\\IDataMinerdRepository.cs",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Interfaces\\Repositories\\IDataMinerdRepository.cs",
+              "RelativeToolTip": "AppCrudMinerd.Application\\Interfaces\\Repositories\\IDataMinerdRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:35:20.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "DataMinerdDto.cs",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Dtos\\DataMinerdDto.cs",
+              "RelativeDocumentMoniker": "AppCrudMinerd.Application\\Dtos\\DataMinerdDto.cs",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Application\\Dtos\\DataMinerdDto.cs",
+              "RelativeToolTip": "AppCrudMinerd.Application\\Dtos\\DataMinerdDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:35:17.447Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppCrudMinerdContext.cs",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Persistence\\Context\\AppCrudMinerdContext.cs",
+              "RelativeDocumentMoniker": "AppCrudMinerd.Persistence\\Context\\AppCrudMinerdContext.cs",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Persistence\\Context\\AppCrudMinerdContext.cs",
+              "RelativeToolTip": "AppCrudMinerd.Persistence\\Context\\AppCrudMinerdContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:34:40.076Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AppCrudMinerd.Persistence",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj",
+              "RelativeDocumentMoniker": "AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj",
+              "RelativeToolTip": "AppCrudMinerd.Persistence\\AppCrudMinerd.Persistence.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-14T19:27:10.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataMinerdRepository.cs",
+              "DocumentMoniker": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Persistence\\Repositories\\DataMinerdRepository.cs",
+              "RelativeDocumentMoniker": "AppCrudMinerd.Persistence\\Repositories\\DataMinerdRepository.cs",
+              "ToolTip": "C:\\ProyectosManatech\\AppCrudMinerdV2\\AppCrudMinerd\\AppCrudMinerd.Persistence\\Repositories\\DataMinerdRepository.cs",
+              "RelativeToolTip": "AppCrudMinerd.Persistence\\Repositories\\DataMinerdRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T19:08:02.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

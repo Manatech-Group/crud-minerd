@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AppCrudMinerd.Application/1.0.0": {
+        "dependencies": {
+          "AppCrudMinerd.Domain": "1.0.0"
+        },
+        "runtime": {
+          "AppCrudMinerd.Application.dll": {}
+        }
+      },
+      "AppCrudMinerd.Domain/1.0.0": {
+        "runtime": {
+          "AppCrudMinerd.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AppCrudMinerd.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AppCrudMinerd.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

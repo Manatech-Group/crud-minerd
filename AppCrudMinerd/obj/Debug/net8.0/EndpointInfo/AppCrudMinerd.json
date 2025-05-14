@@ -1,0 +1,489 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "AppCrudMinerd",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/DataMinerd": {
+      "get": {
+        "tags": [
+          "DataMinerd"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DataMinerdDto"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DataMinerdDto"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/DataMinerdDto"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "DataMinerd"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDataMinerdDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDataMinerdDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CreateDataMinerdDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/DataMinerd/{site}": {
+      "get": {
+        "tags": [
+          "DataMinerd"
+        ],
+        "parameters": [
+          {
+            "name": "site",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/DataMinerdDto"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DataMinerdDto"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DataMinerdDto"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "DataMinerd"
+        ],
+        "parameters": [
+          {
+            "name": "site",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateDataMinerdDto"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateDataMinerdDto"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateDataMinerdDto"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      },
+      "delete": {
+        "tags": [
+          "DataMinerd"
+        ],
+        "parameters": [
+          {
+            "name": "site",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "CreateDataMinerdDto": {
+        "type": "object",
+        "properties": {
+          "site": {
+            "type": "string",
+            "nullable": true
+          },
+          "circuito": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "nombre_Escuela": {
+            "type": "string",
+            "nullable": true
+          },
+          "waN_IP": {
+            "type": "string",
+            "nullable": true
+          },
+          "latitud": {
+            "type": "string",
+            "nullable": true
+          },
+          "longitud": {
+            "type": "string",
+            "nullable": true
+          },
+          "long_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre_Contacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono_Contacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "regional": {
+            "type": "string",
+            "nullable": true
+          },
+          "distrito": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigo_Planta_Fisica": {
+            "type": "string",
+            "nullable": true
+          },
+          "hostname": {
+            "type": "string",
+            "nullable": true
+          },
+          "ddns": {
+            "type": "string",
+            "nullable": true
+          },
+          "iP_Gestion_FMG": {
+            "type": "string",
+            "nullable": true
+          },
+          "iP_Gestion_SW": {
+            "type": "string",
+            "nullable": true
+          },
+          "sshStatus": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "lastSSHTest": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "pingStatus": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "lastPingTest": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "fortigate": {
+            "type": "string",
+            "nullable": true
+          },
+          "fortigate_FW": {
+            "type": "string",
+            "nullable": true
+          },
+          "fortigate_HTTPS": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "siteType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DataMinerdDto": {
+        "type": "object",
+        "properties": {
+          "site": {
+            "type": "string",
+            "nullable": true
+          },
+          "circuito": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "nombre_Escuela": {
+            "type": "string",
+            "nullable": true
+          },
+          "waN_IP": {
+            "type": "string",
+            "nullable": true
+          },
+          "latitud": {
+            "type": "string",
+            "nullable": true
+          },
+          "longitud": {
+            "type": "string",
+            "nullable": true
+          },
+          "long_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre_Contacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono_Contacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "regional": {
+            "type": "string",
+            "nullable": true
+          },
+          "distrito": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigo_Planta_Fisica": {
+            "type": "string",
+            "nullable": true
+          },
+          "hostname": {
+            "type": "string",
+            "nullable": true
+          },
+          "ddns": {
+            "type": "string",
+            "nullable": true
+          },
+          "iP_Gestion_FMG": {
+            "type": "string",
+            "nullable": true
+          },
+          "iP_Gestion_SW": {
+            "type": "string",
+            "nullable": true
+          },
+          "sshStatus": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "lastSSHTest": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "pingStatus": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "lastPingTest": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "fortigate": {
+            "type": "string",
+            "nullable": true
+          },
+          "fortigate_FW": {
+            "type": "string",
+            "nullable": true
+          },
+          "fortigate_HTTPS": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "siteType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateDataMinerdDto": {
+        "type": "object",
+        "properties": {
+          "circuito": {
+            "type": "integer",
+            "format": "int64",
+            "nullable": true
+          },
+          "nombre_Escuela": {
+            "type": "string",
+            "nullable": true
+          },
+          "waN_IP": {
+            "type": "string",
+            "nullable": true
+          },
+          "latitud": {
+            "type": "string",
+            "nullable": true
+          },
+          "longitud": {
+            "type": "string",
+            "nullable": true
+          },
+          "long_Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "nombre_Contacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "telefono_Contacto": {
+            "type": "string",
+            "nullable": true
+          },
+          "regional": {
+            "type": "string",
+            "nullable": true
+          },
+          "distrito": {
+            "type": "string",
+            "nullable": true
+          },
+          "codigo_Planta_Fisica": {
+            "type": "string",
+            "nullable": true
+          },
+          "hostname": {
+            "type": "string",
+            "nullable": true
+          },
+          "ddns": {
+            "type": "string",
+            "nullable": true
+          },
+          "iP_Gestion_FMG": {
+            "type": "string",
+            "nullable": true
+          },
+          "iP_Gestion_SW": {
+            "type": "string",
+            "nullable": true
+          },
+          "sshStatus": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "lastSSHTest": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "pingStatus": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "lastPingTest": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "fortigate": {
+            "type": "string",
+            "nullable": true
+          },
+          "fortigate_FW": {
+            "type": "string",
+            "nullable": true
+          },
+          "fortigate_HTTPS": {
+            "type": "boolean",
+            "nullable": true
+          },
+          "siteType": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
