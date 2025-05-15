@@ -11,7 +11,7 @@ namespace AppCrudMinerd.Application.Dtos
         public long? Circuito { get; set; }
 
         public string Nombre_Escuela { get; set; }
-
+         
         public string WAN_IP { get; set; }
 
         public string Latitud { get; set; }
@@ -38,19 +38,7 @@ namespace AppCrudMinerd.Application.Dtos
 
         public string? IP_Gestion_SW { get; set; }
 
-        public bool? SSHStatus { get; set; }
-
-        public DateTime? LastSSHTest { get; set; }
-
-        public bool? PingStatus { get; set; }
-
-        public DateTime? LastPingTest { get; set; }
-
-        public string? Fortigate { get; set; }
-
-        public string? Fortigate_FW { get; set; }
-
-        public bool? Fortigate_HTTPS { get; set; }
+       
 
         public string? SiteType { get; set; }
     }

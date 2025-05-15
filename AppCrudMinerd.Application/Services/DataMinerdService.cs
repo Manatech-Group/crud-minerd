@@ -139,13 +139,6 @@ namespace AppCrudMinerd.Application.Services
             e.DDNS = dto.DDNS;
             e.IP_Gestion_FMG = dto.IP_Gestion_FMG;
             e.IP_Gestion_SW = dto.IP_Gestion_SW;
-            e.SSHStatus = dto.SSHStatus;
-            e.LastSSHTest = dto.LastSSHTest;
-            e.PingStatus = dto.PingStatus;
-            e.LastPingTest = dto.LastPingTest;
-            e.Fortigate = dto.Fortigate;
-            e.Fortigate_FW = dto.Fortigate_FW;
-            e.Fortigate_HTTPS = dto.Fortigate_HTTPS;
             e.SiteType = dto.SiteType;
 
             await _repo.UpdateAsync(e);
