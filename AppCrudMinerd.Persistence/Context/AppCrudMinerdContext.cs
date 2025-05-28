@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
+using AppCrudMinerd.Domain.Entities;
 using AppCrudMinerd.Persistence.Entities;
 using Microsoft.EntityFrameworkCore;
 
@@ -18,6 +19,7 @@ namespace AppCrudMinerd.Persistence.Context
 
         // Agrega tu DbSet para la tabla Minerd
         public DbSet<DataMinerd> DATA_MINERD { get; set; }
+        public DbSet<Device> Devices { get; set; }
 
         // Aquí puedes agregar configuraciones adicionales si lo necesitas
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -26,6 +28,7 @@ namespace AppCrudMinerd.Persistence.Context
 
             // Configuraciones adicionales si las necesitas
             modelBuilder.Entity<DataMinerd>().ToTable("DATA_MINERD", "dbo");
+            modelBuilder.Entity<Device>().ToTable("Devices", "dbo");
         }
     }
 }

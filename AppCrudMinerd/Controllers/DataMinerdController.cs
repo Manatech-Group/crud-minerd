@@ -24,6 +24,20 @@ namespace AppCrudMinerd.Controllers
             return Ok(list);
         }
 
+        // GET: api/DataMinerd/search?search=texto
+        [HttpGet("search")]
+        public async Task<ActionResult<IEnumerable<DataMinerdDto>>> Search([FromQuery] string search)
+        {
+            if (string.IsNullOrWhiteSpace(search))
+            {
+                var all = await _service.GetAllAsync();
+                return Ok(all);
+            }
+
+            var resultados = await _service.SearchAsync(search);
+            return Ok(resultados);
+        }
+
         // GET: api/DataMinerd/{site}
         [HttpGet("{site}")]
         public async Task<ActionResult<DataMinerdDto>> GetById(string site)
@@ -37,9 +51,7 @@ namespace AppCrudMinerd.Controllers
         [HttpPost]
         public async Task<ActionResult> Create([FromBody] CreateDataMinerdDto dto)
         {
-            // Aquí podrías validar ModelState.IsValid
             await _service.CreateAsync(dto);
-            // Asumimos que dto.Site viene en la petición y es único
             return CreatedAtAction(nameof(GetById), new { site = dto.Site }, dto);
         }
 
@@ -64,5 +76,19 @@ namespace AppCrudMinerd.Controllers
             await _service.DeleteAsync(site);
             return NoContent();
         }
+
+        [HttpPost("import")]
+        [ApiExplorerSettings(IgnoreApi = true)]     // <- Esto lo oculta de Swagger
+        [Consumes("multipart/form-data")]
+        public async Task<IActionResult> Import([FromForm] IFormFile file)
+        {
+            if (file == null || file.Length == 0)
+                return BadRequest("Se requiere un archivo CSV.");
+
+            var resultado = await _service.ImportFromCsvAsync(file);
+            return Ok(resultado);
+
+        }
     }
 }
+  
